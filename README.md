@@ -27,8 +27,8 @@ func main() {
 }
 
 
-```
+```go
 go run main.go
-```
 
-![Alt Text](./Screenshot 2025-12-02 at 17.11.52.png)
+
+![image alt](https://github.com/Oktarezapramudya/test-case/blob/main/Screenshot%202025-12-02%20at%2017.11.52.png?raw=true)
