@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy to Cloud Run
         run: |
-          IMAGE="asia-southeast2-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.ARTIFACT_REPO }}/app"
+          IMAGE="asia-southeast2-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.ARTIFACT_REPO }}/test-case"
           gcloud run deploy ${{ secrets.CLOUD_RUN_SERVICE }} \
             --image $IMAGE \
             --platform managed \
