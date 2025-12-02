@@ -7,7 +7,7 @@ func main() {
 
 	route.GET("/", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
-			"msg": "Hello World",
+			"msg": "Test GitHub Action",
 		})
 	})
 	
