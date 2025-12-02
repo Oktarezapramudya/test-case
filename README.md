@@ -59,7 +59,7 @@ CMD ["./main"]
 
 ```
 
-Selanjutnya menjalankan perintah berikut, untuk menjalankan proses build dengan tag "test-case"
+Selanjutnya menjalankan perintah berikut, untuk menjalankan proses build dan membentuk docker image
 ```docker
 docker build -t test-case
 ```
