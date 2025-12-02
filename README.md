@@ -68,13 +68,13 @@ Selanjutnya menjalankan perintah berikut untuk dapat menggunakan Google Cloud SD
 ```gcloud
 gcloud auth login
 ```
-Selanjutnya melakukan docker pull untuk menyimpan docker images ke artifact registry
+Selanjutnya melakukan docker pull untuk menyimpan docker images ke artifact registry pada layanan cloud
 
 Selanjutnya dilakukan deployment ke layanan cloud run dan dilanjutkan dengan pengujian menggunakan Postman
 
 ![image alt](https://github.com/Oktarezapramudya/test-case/blob/main/Screenshot%202025-12-02%20at%2023.57.01.png?raw=true)
 
-Selanjutnya untuk menggunakan Github Action, membuat file .yml
+Selanjutnya untuk menggunakan Github Action, membuat file workflow dengan ekstensi .yml
 ```yml
 name: CI/CD to Cloud Run
 
