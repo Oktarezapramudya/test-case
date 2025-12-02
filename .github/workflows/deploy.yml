@@ -24,7 +24,7 @@ jobs:
 
       - name: Build & Push Docker image
         run: |
-          IMAGE="asia-southeast2-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/test-case/test-case:latest"
+          IMAGE="asia-southeast2-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.ARTIFACT_REPO }}/test-case:latest"
           docker build -t $IMAGE .
           docker push $IMAGE
 
