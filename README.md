@@ -25,10 +25,11 @@ func main() {
 	
 	route.Run(":8080")
 }
+```
 
 
 ```go
 go run main.go
-
+```
 
 ![image alt](https://github.com/Oktarezapramudya/test-case/blob/main/Screenshot%202025-12-02%20at%2017.11.52.png?raw=true)
