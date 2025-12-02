@@ -73,6 +73,7 @@ Selanjutnya melakukan docker pull untuk menyimpan docker images ke artifact regi
 Selanjutnya dilakukan deployment ke layanan cloud run dan dilanjutkan dengan pengujian menggunakan Postman
 
 ![image alt](https://github.com/Oktarezapramudya/test-case/blob/main/Screenshot%202025-12-02%20at%2023.57.01.png?raw=true)
+![image alt](https://github.com/Oktarezapramudya/test-case/blob/main/Screenshot%202025-12-02%20at%2023.57.11.png?raw=true)
 
 Selanjutnya untuk menggunakan Github Action, membuat file workflow dengan ekstensi .yml
 ```yml
