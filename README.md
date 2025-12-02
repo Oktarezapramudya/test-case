@@ -1,6 +1,4 @@
-# Test-case
-
-## Deskripsi
+# Deskripsi
 Repository ini berisi contoh aplikasi sederhana menggunakan **Golang** dengan framework **Gin**, yang di-deploy ke **Google Cloud Run** menggunakan **Docker** dan otomatisasi **CI/CD dengan GitHub Actions**.
 
 ---
@@ -73,6 +71,9 @@ Selanjutnya melakukan docker pull untuk menyimpan docker images ke artifact regi
 Selanjutnya dilakukan deployment ke layanan cloud run dan dilanjutkan dengan pengujian menggunakan Postman
 
 ![image alt](https://github.com/Oktarezapramudya/test-case/blob/main/Screenshot%202025-12-02%20at%2023.57.01.png?raw=true)
+```
+https://test-case-359264216830.asia-southeast2.run.app
+```
 ![image alt](https://github.com/Oktarezapramudya/test-case/blob/main/Screenshot%202025-12-02%20at%2023.57.11.png?raw=true)
 
 Selanjutnya untuk menggunakan Github Action, membuat file workflow dengan ekstensi .yml
